@@ -1,0 +1,38 @@
+2025-07-14 18:40:55,319 - DEBUG - Starting Flask development server
+2025-07-14 18:40:55,332 - WARNING -  * Debugger is active!
+2025-07-14 18:40:55,339 - INFO -  * Debugger PIN: 953-395-438
+2025-07-14 18:40:57,804 - DEBUG - Request received at /predict endpoint
+2025-07-14 18:40:57,806 - DEBUG - File object received: crop.jpg
+2025-07-14 18:40:57,807 - DEBUG - Saved uploaded image to uploads\554efbaa-be1b-482b-9adf-01e76b06637f_crop.jpg
+2025-07-14 18:40:59,683 - DEBUG - Inference result: {'plant': 'Tomato', 'disease': 'Late_blight'}
+2025-07-14 18:40:59,683 - DEBUG - Temporary file uploads\554efbaa-be1b-482b-9adf-01e76b06637f_crop.jpg removed
+2025-07-14 18:40:59,684 - INFO - 127.0.0.1 - - [14/Jul/2025 18:40:59] "POST /predict HTTP/1.1" 200 -
+2025-07-14 18:41:22,479 - DEBUG - Starting Flask development server
+2025-07-14 18:41:22,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-14 18:41:22,500 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 18:41:22,512 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-14 18:41:27,116 - DEBUG - Starting Flask development server
+2025-07-14 18:41:27,128 - WARNING -  * Debugger is active!
+2025-07-14 18:41:27,137 - INFO -  * Debugger PIN: 953-395-438
+2025-07-14 18:41:34,207 - DEBUG - Request received at /predict endpoint
+2025-07-14 18:41:34,209 - DEBUG - File object received: crop.jpg
+2025-07-14 18:41:34,213 - DEBUG - Saved uploaded image to uploads\627946f6-f69a-4c21-b464-4edf3aee3a97_crop.jpg
+2025-07-14 18:41:36,467 - DEBUG - Inference result: {'plant': 'Tomato', 'disease': 'Late_blight'}
+2025-07-14 18:41:36,469 - DEBUG - Temporary file uploads\627946f6-f69a-4c21-b464-4edf3aee3a97_crop.jpg removed
+2025-07-14 18:41:36,470 - INFO - 127.0.0.1 - - [14/Jul/2025 18:41:36] "POST /predict HTTP/1.1" 200 -
+2025-07-14 18:44:04,209 - DEBUG - Request received at /predict endpoint
+2025-07-14 18:44:04,212 - DEBUG - File object received: crop.jpg
+2025-07-14 18:44:04,214 - DEBUG - Saved uploaded image to uploads\32c9ea6e-0562-4635-bcb3-5cb70aa427dc_crop.jpg
+2025-07-14 18:44:06,000 - DEBUG - Inference result: {'plant': 'Tomato', 'disease': 'Late_blight'}
+2025-07-14 18:44:06,001 - DEBUG - Temporary file uploads\32c9ea6e-0562-4635-bcb3-5cb70aa427dc_crop.jpg removed
+2025-07-14 18:44:06,003 - INFO - 127.0.0.1 - - [14/Jul/2025 18:44:06] "POST /predict HTTP/1.1" 200 -
+2025-07-14 18:46:42,801 - DEBUG - Request received at /predict endpoint
+2025-07-14 18:46:42,803 - DEBUG - File object received: crop.jpg
+2025-07-14 18:46:42,804 - DEBUG - Saved uploaded image to uploads\48acdc2f-c25a-4c97-bdf5-bce4a9ef5004_crop.jpg
+2025-07-14 18:46:44,152 - DEBUG - Inference result: {'plant': 'Tomato', 'disease': 'Late_blight'}
+2025-07-14 18:46:44,152 - DEBUG - Temporary file uploads\48acdc2f-c25a-4c97-bdf5-bce4a9ef5004_crop.jpg removed
+2025-07-14 18:46:44,153 - INFO - 127.0.0.1 - - [14/Jul/2025 18:46:44] "POST /predict HTTP/1.1" 200 -
+2025-07-14 18:49:11,047 - INFO -  * Detected change in 'D:\\DISEASE_PRED\\api\\app.py', reloading
+2025-07-14 18:49:11,048 - INFO -  * Detected change in 'D:\\DISEASE_PRED\\api\\app.py', reloading
+2025-07-14 18:49:12,008 - INFO -  * Restarting with watchdog (windowsapi)
