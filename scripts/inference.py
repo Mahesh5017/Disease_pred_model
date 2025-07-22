@@ -3,7 +3,7 @@ from torchvision import transforms
 from PIL import Image
 
 def predict_image(img_path):
-    checkpoint = torch.load("D:/DISEASE_PRED/model/crop_disease_model.pt", map_location=torch.device("cpu"))
+    checkpoint = torch.load("model/crop_disease_model.pt", map_location=torch.device("cpu"))
     class_names = checkpoint["class_names"]
     model = torch.hub.load("pytorch/vision", "resnet18", weights=None)
     model.fc = torch.nn.Linear(model.fc.in_features, len(class_names))
